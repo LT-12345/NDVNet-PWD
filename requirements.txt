@@ -1,0 +1,29 @@
+# Minimal runtime dependencies for this repo
+# Target environment: Python 3.9
+
+# Core
+torch==1.13.0
+torchvision==0.14.0
+numpy==1.24.3
+
+# Model
+timm==0.4.12
+mamba-ssm==1.0.1
+causal-conv1d==1.0.0
+torch-geometric==2.6.1
+
+# Test / inference
+opencv-python==4.11.0.86
+scikit-learn==1.6.1
+tqdm==4.67.1
+
+# Data preparation
+pandas==2.2.3
+scikit-image==0.24.0
+imageio==2.37.0
+pillow==11.1.0
+h5py==3.12.1
+scipy==1.13.1
+
+# Note:
+# utils.py and FAdam.py are local project modules referenced by configs/config_setting.py.
