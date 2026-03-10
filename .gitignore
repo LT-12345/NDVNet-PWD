@@ -10,9 +10,4 @@ outputs/
 results/
 data/
 dataset/
-dataprepare/masks/
-*.npy
-*.csv
-*.zip
-*.rar
-*.7z
+
